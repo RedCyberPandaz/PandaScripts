@@ -1,3 +1,6 @@
+# just a little ugly gui guy to run my scripts
+
+# gotta import some stuff
 import subprocess
 import sys
 import PySimpleGUI as sg
