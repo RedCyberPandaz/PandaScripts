@@ -5,6 +5,10 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import * 
 
+# a few happy little variables
+root = Tk()
+var1 = tk.IntVar()
+
 # this is the function that increases the progress bar value
 def makeProgress():
 	Workin['value']=Workin['value'] + 1
@@ -25,7 +29,7 @@ root.title('Doin a thing')
 
 # this is the function called when dothething is clicked ie the main script
 def dothething():
-	subprocess.Popen("ls /usr/share/vulkan/icd.d/",shell=True)
+	subprocess.Popen("mpv '/home/panda/Videos/Cartoons/Gravity Falls/'",shell=True)
 
 # this is the function called when dontdothething is clicked
 def dontdothething():
